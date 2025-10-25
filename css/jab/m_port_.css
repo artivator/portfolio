@@ -7,13 +7,11 @@
 
 
 
-*{
-      
-        }
+
  
 #portfolioModal5{
         margin:0; padding:0;
-        box-sizing: border-box;!important;
+        box-sizing: border-box !important;
         font-family: 'Pretendard'!important;
        color: #383838!important;
 }
@@ -329,6 +327,18 @@
 /*----------모바일-----------*/
 @media only screen and (max-width: 768px) {
     
+
+    .timeline{
+
+        padding: 0 24PX;
+    }
+    .navbar-custom{
+        PADDING: 16px;
+
+    }
+
+
+
     .nexon-w{
         padding: 0 30px;
         

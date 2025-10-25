@@ -55,6 +55,8 @@
 
     max-width: 1920px;
     width: 100%;
+
+    margin: 0 auto;
 }
 /*
         
@@ -89,9 +91,10 @@
     font-weight: 500;
     background: #1361ca;
     display: flex;
-    padding-left: 196px;
-    padding-top: 218px;
-    
+    /* padding-left: 196px;
+    padding-top: 218px; */
+    PADDING: 40PX;
+        JUSTIFY-CONTENT: CENTER;
 }
 
 .ca_title_area{
@@ -166,9 +169,25 @@
 
 /*----------모바일-----------*/
 @media only screen and (max-width: 768px) {
-    
+  .row:before{
+    all:unset;
+
+  }
   
-        
+.row.text-center.area1{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+     
+
+        .container{
+            all:unset;
+                
+
+        }
+
 #ca_head{
     display: block;
     padding: 0 30px;
@@ -268,10 +287,13 @@
     
     
     
+/*----------테블릿-----------*/
+@media only screen and (max-width: 1024px) {
+ 
     
     
     
-    
+}    
 
     
     

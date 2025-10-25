@@ -89,8 +89,8 @@
     font-weight: 500;
     background: #43883f;
     display: flex;
-    padding-left: 196px;
-    padding-top: 218px;
+      PADDING: 40PX;
+    JUSTIFY-CONTENT: CENTER;
     
 }
 

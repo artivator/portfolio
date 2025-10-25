@@ -89,7 +89,8 @@ a.active, a:active, a:focus, a:hover {
 }
 .navbar-custom {
 	background-color:#696969;
-	border-color: transparent
+	border-color: transparent;
+	PADDING:40PX;
 }
 .navbar-custom .navbar-brand {
 	color: #c6c6c6;
@@ -139,7 +140,7 @@ a.active, a:active, a:focus, a:hover {
 @media (min-width:768px) {
 .navbar-custom {
 	background-color: transparent;
-	padding: 25px 0;
+	/* padding: 25px 0; */
 	-webkit-transition: padding .3s;
 	-moz-transition: padding .3s;
 	transition: padding .3s;
@@ -156,7 +157,7 @@ a.active, a:active, a:focus, a:hover {
 }
 .navbar-custom.affix {
 	background-color: #ffffff;
-	padding: 10px 0
+	padding: 10px 40PX;
 }
 .navbar-custom.affix .navbar-brand {
 	font-size: 1.5em
@@ -638,7 +639,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	margin-top: 0
 }
 .portfolio-modal .modal-content img {
-	margin-bottom: 30px
+	margin-bottom: 30px;
+	WIDTH: 100%;
+
 }
 .portfolio-modal .close-modal {
 	position: absolute;

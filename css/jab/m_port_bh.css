@@ -1,0 +1,281 @@
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+} 
+
+*{
+      
+        }
+ 
+#portfolioModal2{
+        margin:0; padding:0;
+        box-sizing: border-box;!important;
+        font-family: 'GmarketSans'!important;
+       color: #383838!important;
+}
+   #portfolioModal2 a{
+        text-decoration: none; 
+        color:black;
+            }
+  #portfolioModal2 li{
+        list-style: none;
+}
+
+#portfolioModal2 .modal-body{
+
+    max-width: 1920px;
+    width: 100%;
+}
+/*
+        
+.modal-body{
+    margin: 0 auto;
+     max-width: 1920px;
+    width: 100%;
+    
+}
+
+*/
+
+.portfolio-modal .modal-content .modal-body .mmodal-title  {
+   
+	
+	font-size: 5.8em;
+     text-align: center;
+    text-transform: uppercase;
+	font-weight: 700;
+        
+}
+.portfolio-modal .modal-content .text-muted {
+   text-align: center;
+	/*
+    margin-bottom: 30px
+    */
+}
+    
+    
+#bh_head{
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    background: #43883f;
+    display: flex;
+    padding-left: 196px;
+    padding-top: 218px;
+    
+}
+
+.bh_title_area{
+    margin-top: 70px;
+    margin-left: 80px;
+    color: white;
+}
+
+
+.bh_head_title{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    
+}
+
+.bh_head_title2{
+   
+    
+    
+    font-size: 4.5rem;
+    font-weight: 700;
+    
+}
+
+.bh_head_title3{
+    margin-bottom: 50px;
+    line-height: 36px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+
+.bh_page_bt{
+  
+    display: flex;
+   
+    
+}
+
+    .bh_page_bt a div{
+        color: white;
+    }
+
+
+.bh_main_bt,.bh_sub_bt,.bh_Figma_bt{
+    max-width: 160px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 24px;
+    font-size: 1.875rem;
+    font-weight: 700;
+    padding: 0 20px
+}
+
+.bh_main_bt:hover,.bh_sub_bt:hover,.bh_Figma_bt:hover{
+    background: white;
+    color: #43883f;
+    
+    
+}
+.end_button{
+    text-align: center;
+    
+}
+
+
+
+/*----------모바일-----------*/
+@media only screen and (max-width: 768px) {
+    
+  
+        
+#bh_head{
+    display: block;
+    padding: 0 30px;
+}
+    
+ .bh_mac_img img{
+        margin-top: 50px;
+        width: 100%;
+       
+        
+    }    
+    
+    
+    
+.bh_title_area{
+   
+    text-align: center;
+    margin:0;
+    color: white;
+}
+
+
+.bh_head_title{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+
+.bh_head_title2{
+    margin-bottom: 40px;
+    
+    
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.bh_head_title3{
+    margin-bottom: 30px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+.bh_page_bt{
+    
+   
+    padding-bottom: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+   
+    
+    
+.bh_Figma_bt,.bh_main_bt,.bh_sub_bt{
+   
+    
+   max-width:80px;
+    width: 100%;
+    height: 42px;
+    
+    
+    margin-right: 0;
+    line-height: 42px;
+   
+    font-size: 16px;
+    
+    padding: 0 10px;
+   
+    
+   
+}
+ 
+   .bh_Figma_bt,.bh_main_bt{
+        margin-right: 10px;
+        
+    }    
+    
+    
+    
+    .bh_page_bt a div{
+            
+     width: 130px;
+        
+        
+    }    
+
+  
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    

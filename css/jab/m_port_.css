@@ -1,0 +1,533 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+*{
+      
+        }
+ 
+#portfolioModal5{
+        margin:0; padding:0;
+        box-sizing: border-box;!important;
+        font-family: 'Pretendard'!important;
+       color: #383838!important;
+}
+   #portfolioModal5 a{
+        text-decoration: none; 
+        color:black;
+            }
+  #portfolioModal5 li{
+        list-style: none;
+}
+
+.modal-body{
+    
+    max-width: 1920px;
+    width: 100%;
+}
+/*
+
+.modal-body{
+    margin: 0 auto;
+     max-width: 1920px;
+    width: 100%;
+    
+}
+
+*/
+
+.portfolio-modal .modal-content .modal-body .mmodal-title  {
+    font-family: 'pretendard';
+	
+	font-size: 5.8em;
+     text-align: center;
+    text-transform: uppercase;
+	font-weight: 700
+        
+}
+.portfolio-modal .modal-content .text-muted {
+   text-align: center;
+	/*
+    margin-bottom: 30px
+    */
+}
+
+.nexon-w{
+ 
+ 
+  
+   
+    
+}
+
+.n_title{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+ .nexon-title{
+    
+    font-size: 4.5rem;
+    font-weight: 900;
+ 
+}
+
+
+
+.nexon-flow{
+    
+    margin-top: 92px;
+    margin-left: 425px;
+    position: relative;
+     overflow: hidden;
+    padding-bottom: 800px;
+}
+
+
+.nexon-flow .n_title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-top: 150px;
+   
+    
+}
+
+
+.nexon-w .n_v{
+    font-size: 1.875rem;
+    font-weight: 300;
+    opacity: 80%;
+}    
+.nexon-w .n_v span{
+    color: #ef402a;
+    font-weight: 700;
+    
+}
+
+
+.nexon-back{
+   position: absolute;
+    left: 500px;
+    top: 300px;
+   
+}
+
+
+#nexon-ct2 {
+    
+    display: flex;
+    
+}
+
+#nexon-ct2 .nexon-title{
+    margin: 0;
+}
+
+.nexon-ct2-r{
+    margin-left: 140px;
+    margin-top: 130px;
+ 
+}
+
+.nexon-ct2-r .n_v{
+    margin-top: 90px;
+    
+}
+.nexon-ct2-r .n_v span
+{   
+    
+    font-size: 3.125rem;
+    color: #ef402a;
+    font-weight: 700;
+    line-height: 120px;
+    
+}
+
+
+
+
+#nexon-ct3{
+    text-align: center;
+    margin-top: 430px;
+    
+}
+
+
+#nexon-ct3 img{
+    margin-top:174px;
+    position: relative;
+    right: 32px;
+
+}
+
+.nexon-w .p{
+    font-size: 1.875rem;
+    color: #e86325;
+    opacity: 80%;
+    
+}
+
+.nig{
+    font-size: 8.125rem;
+    font-weight: 700;
+    transform: rotate(90deg);
+    margin-top: 66px;
+}
+
+.nexon-togeter{
+    margin-top: 150px;
+    
+}
+    
+.nexon-togeter p{
+    
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 60px;
+    color: black;
+    opacity: 80%;
+}
+.nexon-togeter img{
+    position: relative;
+    left: 1px;
+    
+}
+    
+#nexon-ct4{
+        
+        margin-top: 450px; 
+        margin-right: 190px;
+       
+        
+        float: right;
+  
+    
+}
+
+
+
+#nexon-ct4 .nexon-title{
+       margin: 0;
+    
+}
+
+.nexon-color{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+
+
+.nexon-color div{
+    margin-top: 62px;
+    margin-bottom: 88px;
+    max-width: 258px;
+    width: 100%;
+    height: 258px;
+    background: #e86325;
+    color: white;
+    font-size: 2.688rem;
+    font-weight: 300;
+    padding-left: 24px;
+    padding-top: 24px;
+
+}
+.nexon-color div:nth-child(2){
+    background: #f58739;
+  
+}
+
+.nexon-color div span{
+    color: white;
+    
+}
+
+
+.nexon-color div:nth-child(3){
+    background: #f9a970;
+}
+
+
+#nexon-ct5{
+   clear: both;
+    margin-bottom: 120px;
+    
+}
+
+#nexon-ct5 .nexon-title{
+    padding-top: 300px;
+    margin-bottom: 100px;
+}
+
+.nexon-ct5-contents{
+    
+    display: flex;
+    margin-bottom: 86px;
+}
+
+.nexon-ct5-contents div{
+    margin-left: 80px;
+
+}
+
+.gray-logo{
+    
+    
+    max-width: 980px;
+    width: 100%;
+    height: 590px;
+    text-align: center;
+    background: #ededed;
+    margin: 0 auto;
+}
+
+.gray-logo img{
+    position: relative;
+    top: 100px;
+    
+}
+
+#nexon-ct6 {
+    max-width: 1920px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.n_bv{
+    text-align: center;
+    
+    
+}
+.modal-body button{
+    
+    text-align: center;
+}
+
+.end_button{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*----------모바일-----------*/
+@media only screen and (max-width: 768px) {
+    
+    .nexon-w{
+        padding: 0 30px;
+        
+    }
+    
+    .img-responsive {
+        width: 96vw;
+        
+        
+    }
+    
+    
+    
+    .n_title,.nexon-flow .n_title{
+    font-size: 34px;
+    font-weight: 900;
+       
+        }
+    
+    .nexon-w .n_v {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    #nexon-ct1 .n_title:nth-child(1){
+        margin-top: 20px;
+        
+    }
+    
+    
+.nexon-flow{
+    
+   margin: 0;
+    position: relative;
+     overflow: hidden;
+    padding-bottom: 300px;
+}
+
+    
+    .nexon-back img{
+        display: none;
+        
+    }
+    
+    
+    #nexon-ct2{
+        display: block;
+        
+    }
+    
+    .nexon-ct2-img{
+      
+        margin-bottom: 100px;
+        
+    }
+    
+    .nexon-ct2-img img{
+        width: 300px;
+        
+    }
+    
+    .nexon-ct2-r{
+        margin: 0;
+        
+    }
+    .nexon-ct2-r .n_v{
+        
+        margin-top: 30px;
+       
+        
+    }
+    .nexon-ct2-r .n_v span{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    #nexon-ct3{
+        margin-top: 300px;
+       
+    }
+    
+    .n_title,.nexon-w .p{
+        margin: 0;
+    }
+    
+    #nexon-ct3 img:nth-child(1){
+        margin-top: 50px;
+        width: 300px;
+        position: static;
+        
+    }
+    .nexon-w .p{
+       
+        font-size: 20px;
+    }
+    
+    .nig{
+      display: none;
+        
+    }
+    
+    .nexon-togeter{
+        margin-top: 50px;
+    }
+    
+    .nexon-togeter p{
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+    }
+    
+    .nexon-togeter img{
+        width: 100px;
+       
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    #nexon-ct3 img{
+        margin: 0;
+    }
+    
+    
+    #nexon-ct4{
+        float: none;
+        margin: 0;
+    
+        margin-top: 300px;
+        
+    }
+    
+    
+    .nexon-color{
+        margin-bottom: 30px;
+    }
+    
+    .nexon-color div{
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+       
+    }
+    
+    .nexon-ct5-contents img{
+        
+        width: 80vw;
+    }
+    img{
+        width: 100vw;
+        
+    }
+    .gray-logo{
+        background: white;
+        height: 200px
+    }
+    
+    .gray-logo img{
+        width: 200px;
+    }
+    
+    .nexon-color div {
+    margin-top: 42px;
+    margin-bottom: 0px;
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+    background: #e86325;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+        
+    .nexon-color div span{
+        display: none;
+    } 
+    
+    .nexon-ct5-contents{
+        display: block;    
+    
+    }
+    
+    .nexon-ct5-contents div{
+        margin: 0;
+    }
+    
+    #nexon-ct5 br{
+        display: none;
+    }
+    #nexon-ct5 .nexon-title{
+        margin-bottom: 20px;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    

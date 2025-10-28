@@ -7,8 +7,12 @@
 
 
 
-
+.bh_main_bt.BU:hover, .bh_sub_bt.BU:hover, .bh_Figma_bt.BU:hover {
+    background: white;
+    color: #0F005F;
  
+}
+
 #portfolioModal5{
         margin:0; padding:0;
         box-sizing: border-box !important;
